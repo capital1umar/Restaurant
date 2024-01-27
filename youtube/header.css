@@ -1,0 +1,179 @@
+body {
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+
+  position: fixed;
+  background-color: white;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.left-section img {
+  height: 20px;
+}
+
+.hamburger-menu {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.search-button img,
+.voice-search-button img,
+.right-section img {
+  height: 24px;
+}
+
+.search-button {
+  padding-top: 4px;
+}
+
+::placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.voice-search {
+  width: 35px;
+}
+
+.voice-search-button {
+  height: 37px;
+  border-radius: 20px;
+  margin-left: 5px;
+  border: none;
+}
+
+.search-button {
+  width: 60px;
+  height: 40px;
+}
+
+.search-button,
+.voice-search-button,
+.upload-tooltip,
+.youtube-tooltip,
+.notify-tooltip,
+.youtube-tooltip {
+  position: relative;
+  white-space: nowrap;
+}
+
+.tooltip,
+.tooltipp,
+.tooltippp,
+.tooltip1,
+.toolti11,
+.tooltil1 {
+  position: absolute;
+  bottom: -30px;
+  background-color: rgb(146, 142, 142);
+  padding: 4px 6px;
+  opacity: 0;
+}
+
+.toolti11 {
+  white-space: nowrap;
+  left: -35px;
+}
+
+.tooltil1 {
+  left: -33px;
+}
+
+.tooltippp {
+  left: -20px;
+}
+
+.tooltipp {
+  left: -50px;
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltipp,
+.upload-tooltip:hover .tooltippp,
+.youtube-tooltip:hover .tooltil1,
+.notify-tooltip:hover .toolti11 {
+  opacity: 1;
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 30px;
+  max-width: 500px;
+  align-items: center;
+}
+
+.notify-tooltip {
+  position: relative;
+}
+
+.notificationss {
+  position: absolute;
+  right: 17px;
+  border-radius: 10px;
+  padding: 2px 6px;
+  top: -5px;
+  background-color: rgb(204, 14, 14);
+  color: white;
+  font-size: 12px;
+}
+
+.search {
+  height: 40px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.upload,
+.youtube-apps,
+.notifications {
+  margin-right: 20px;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 80px;
+  top: 60px;
+  bottom: 50%;
+}
+
+.sidebar img {
+  height: 25px;
+}
+
+.sidebar div {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  white-space: nowrap;
+  justify-content: center;
+}
+
+.sidebar p {
+  margin-top: 5px;
+  font-size: 11px;
+}
+
+.sidebar div:hover {
+  background-color: rgb(245, 234, 234);
+}

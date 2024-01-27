@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex {
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+      }
+      .left-section {
+        display: flex;
+        align-items: center;
+        width: 150px;
+      }
+
+      .hamburger-menu {
+        height: 25px;
+        margin-left: 24px;
+        margin-right: 24px;
+      }
+
+      .youtube-logo {
+        height: 20px;
+      }
+
+      .middle-section {
+        background-color: brown;
+        flex: 1;
+        margin-left: 70px;
+        margin-right: 40px;
+        max-width: 500px;
+      }
+
+      .right-section {
+        background-color: aqua;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icon/hamburger-menu.svg" />
+        <img class="youtube-logo" src="icon/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="search" placeholder="search" />
+      </div>
+      <div class="right-section">right section</div>
+    </div>
+  </body>
+</html>
